@@ -11,8 +11,8 @@ function setup(){
 
 function draw(){
     background("grey");
-    if (mouseEvent.presses()){
-
+    if (MouseEvent.presses()){
+        
     }
 
     // code to check if mouse is pressed i.e. mouse.presses()

@@ -2,7 +2,7 @@ let square;
 
 function setup(){
     new Canvas(400, 600);
-    square = new Sprite()
+    square = new Sprite(200, 300, 20, 20, "dynamic");
     // code to set the gravity of the world
 
 

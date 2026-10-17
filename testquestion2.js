@@ -3,7 +3,7 @@ let square;
 function setup(){
     new Canvas(400, 600);
     // code to set the gravity of the world
-    world.gravity.y = -10
+    world.gravity.y = 10
 
     // code to create a new square sprite
     square = new Sprite(200, 300, 20, 20);
@@ -11,7 +11,7 @@ function setup(){
 
 function draw(){
     background("grey");
-    if (MouseEvent.presses()){
+    if (mouse.presses()){
         square.velocity.y = 10
     }
 

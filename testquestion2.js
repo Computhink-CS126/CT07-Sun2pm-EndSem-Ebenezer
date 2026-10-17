@@ -12,7 +12,7 @@ function setup(){
 function draw(){
     background("grey");
     if (mouse.presses()){
-        square.velocity.y = 10
+        square.velocity.y = -5
     }
 
     // code to check if mouse is pressed i.e. mouse.presses()

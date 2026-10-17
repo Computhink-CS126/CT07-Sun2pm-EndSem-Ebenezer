@@ -12,7 +12,7 @@ function setup(){
 function draw(){
     background("grey");
     if (MouseEvent.presses()){
-        
+        sq
     }
 
     // code to check if mouse is pressed i.e. mouse.presses()

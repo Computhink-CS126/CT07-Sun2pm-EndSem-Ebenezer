@@ -6,7 +6,7 @@ function setup(){
     world.gravity.y = 10
 
     // code to create a new square sprite
-    fil
+    fill("purple")
     square = new Sprite(200, 300, 35, 35);
 }
 
